@@ -8,6 +8,13 @@
   border-radius: 0;
   border: 0;
 }
+#nav-list
+{
+  background-color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: grey  solid 0.5px;
+}
 
 .navbar-brand h1 { /* Food, LLC */
   color: black;
@@ -18,10 +25,31 @@
   line-height: .75;
 }
 
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 2em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+hr {
+	color: black;
+	width:  95%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 h1, h2{
 	text-align: center;
 	font-weight: bold;
 }
+
 
 .box {
 	margin: 10px;
@@ -29,3 +57,4 @@ h1, h2{
 	background-color: #a5ada8;
 	position: relative;
 }
+
